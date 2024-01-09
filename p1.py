@@ -25,7 +25,6 @@ from fpdf import FPDF
 from io import BytesIO
 from PIL import Image
 
-os.environ["OPENAI_API_KEY"] = "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"
 # import nltk
 # #nltk.download()
 # nltk.download('punkt')
