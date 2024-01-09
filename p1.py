@@ -1,7 +1,7 @@
-# ---------------------------------------------------
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# # ---------------------------------------------------
+# __import__('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # ---------------------------------------------------
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -25,7 +25,7 @@ from fpdf import FPDF
 from io import BytesIO
 from PIL import Image
 
-
+os.environ["OPENAI_API_KEY"] = "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"
 # import nltk
 # #nltk.download()
 # nltk.download('punkt')
